@@ -1,4 +1,6 @@
 # bio_utils.py
+"""A collection of utility functions for biological sequence analysis.
+"""
 def gc_content(seq: str) -> float:
     """
     Return GC percentage for a DNA sequence (0-100).
